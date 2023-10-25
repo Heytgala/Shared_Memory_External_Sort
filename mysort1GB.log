@@ -1,0 +1,10 @@
+In Memory Sort 
+ Total Time: 1.022466 Seconds 
+ Total Data Read: 0.931322574615479 GB 
+ Total Data Write: 0.931322574615479 GB 
+ 
+ ValSort
+Records: 1000000
+Checksum: 7a19cff467438
+Duplicate keys: 0
+SUCCESS - all records are in order
