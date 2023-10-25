@@ -34,7 +34,7 @@ $ valsort outputmysort16GB.txt >> mysort16GB.log 2>&1 -- validate output file an
 $ time sort mysort16GB.txt -o linoutputsort16GB.txt -- Linux sort command to sort data and displays execution time
 $ valsort linoutputsort16GB.txt >> linsort16GB.log 2>&1 -- Linux sort validation command to validate linux output file and append output of it in linux log file
 
-$ { echo "External Sort"; echo "Data Read: $(du -h mysort64GB.txt | cut -f1)B"; echo "Execution Time:"; time sort -o outputmysort64GB.txt -S 50% --parallel=4 mysort64GB.txt; echo "Data Write: $(du -h outputmysort64GB.txt | cut -f1)B"; } 2>&1 | tee mysort64GB.log -- External sort command for 64GB input file
+$ { echo "External Sort"; echo "Data Read: $(du -h mysort64GB.txt | cut -f1)B"; echo "Execution Time:"; time sort -o outputmysort64GB.txt -S 50% --parallel=4 mysort64GB.txt; echo "Data Write: $(du -h outputmysort64GB.txt | cut -f1)B"; echo "Val Sort"; } 2>&1 | tee mysort64GB.log -- External sort command for 64GB input file
 $ valsort outputmysort64GB.txt >> mysort64GB.log 2>&1 -- validate output file and append output of it in log file
 $ time sort mysort64GB.txt -o linoutputsort64GB.txt -- Linux sort command to sort data and displays execution time
 $ valsort linoutputsort64GB.txt >> linsort64GB.log 2>&1 -- Linux sort validation command to validate linux output file and append output of it in linux log file
