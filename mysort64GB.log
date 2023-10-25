@@ -1,0 +1,12 @@
+External Sort
+Data Read: 60GB
+Execution Time:
+
+real	90m38.94s
+user	70m16.923s
+sys	45m39.654s
+Data Write: 60GB
+Records: 640000000
+Checksum: 147a3j87n93be7a7
+Duplicate keys: 0
+SUCCESS - all records are in order
