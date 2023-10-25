@@ -5,7 +5,7 @@
 
 **Students**:
 * Heyt Gala hgala@hawk.iit.edu
-* Vijay Bharvad vbharvad@hawk.iit.edu
+* Vijaybhai Bharvad vbharvad@hawk.iit.edu
 
 
 ## How to check and test your implementation
