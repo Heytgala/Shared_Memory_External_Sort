@@ -1,4 +1,4 @@
-# Shared_Memory_External_Sort
+# Shared Memory External Sort
 
 ### CS553 Cloud Computing Practical Assignment 3
 **Illinois Institute of Technology**  
